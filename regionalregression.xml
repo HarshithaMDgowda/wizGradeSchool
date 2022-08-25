@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regionalregressionSuite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.TestNGimplement.wizGrade.searchStudnet">
+     <methods>
+     <include name="Searchstudent"></include></methods></class>
+      <class name="com.TestNGimplement.wizGrade.Subject"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- regionalregressionSuite -->
