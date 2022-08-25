@@ -95,6 +95,8 @@ public class createSubjecttest {
 	
 	//step 8 logout
 	driver.close();
+	System.out.println("student created successfully");
+	System.out.println("tc pass");
 	}	
 }
 }
